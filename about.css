@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: url('./img/background-about.png');
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    background-color: #d5f1fc;
+    cursor: pointer;
+}
+.box {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 120px;
+    text-align: center;
+}
+.box h1 {
+    color: #1a8ab3;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.box h2 {
+    color: #1f4b5a;
+    font-size: 20px;
+    font-weight: 500;
+}
+.foto {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.box p {
+    font-size: 18px;
+}
+.box .tombol {
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #1693bf;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+}
+.box .tombol:hover {
+    background-color: #4aabd1;
+    cursor: pointer;
+}

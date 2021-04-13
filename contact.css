@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    background-color: #d5f1fc;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('./img/background-contact.png');
+}
+.contact-title {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 150px;
+    text-align: center;
+}
+.contact-title h1 {
+    color: #1a8ab3;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.contact-title h2 {
+    color: #1f4b5a;
+    font-size: 20px;
+    font-weight: 500;
+}
+form {
+    margin-top: 50px;
+}
+.control {
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input {
+    height: 40px;
+}
+.contact-form .control-submit {
+    background: #04384b;
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 40px;
+    margin-top: 10px;
+}
+.contact-form .control-submit:hover {
+    background-color: #1c6b88;
+    cursor: pointer;
+}

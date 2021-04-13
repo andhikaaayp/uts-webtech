@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="index.html"><img src="img/dunia-headset.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+    </section>
+    <div class="contact-title">
+        <h1>Hubungi Kami</h1>
+        <h2>Pesan Anda akan kami balas secepat mungkin</h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="form.php">
+        <input type="text" name="name" class="control" placeholder="Isikan nama Anda" required>
+        <br/>
+        <input type="email" name="email" class="control" placeholder="Isikan email Anda" required>
+        <br/>
+        <textarea name="message" class="control" placeholder="Tulis pesan Anda" row="4" required>
+        </textarea><br/>
+        <input type="submit" class="control-submit" value="Kirim Pesan">
+        </form>
+    </div>
+</body>
+</html>
